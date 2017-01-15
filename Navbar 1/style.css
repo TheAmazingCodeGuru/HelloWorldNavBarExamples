@@ -1,0 +1,37 @@
+/* Initialisation */
+html{
+    font-family: Arial, serif; /* Font Family */
+}
+
+body{
+    margin: 0px;
+}
+/* Initialisation */
+
+nav.main-nav > ul{
+    list-style-type: none;
+    background-color: #333; /* Background color for the navbar */
+    margin: 0px;
+    text-align: center; /* Aligns the Navbar text to a position (Defalt: Center) */
+}
+
+nav.main-nav > ul > a > li{
+    display: inline-block;
+    padding: 10px; /* Padding between Main navbar elements */
+}
+
+nav.main-nav > ul > a > li{
+    text-decoration: none;
+    color: white; /* Navbar Text Color */
+}
+
+/* Hover color Background color switch animation; */
+nav.main-nav > ul > a > li:hover{
+    background-color: #444; /* Animation color */
+    animation-name: example;
+    animation-duration: 0.2s; /* Animation Duration (Defalt: 0.2s) */
+}
+@keyframes example { /* The Animation */
+    0%   {background-color: #333;}
+    100% {background-color: #444;} /* Animation Color */
+}
